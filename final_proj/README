@@ -1,8 +1,21 @@
-The Player Problem: The share of space portioned to different audio playback devices in Audio Magazine between 1973-1999
-Authors: Marcus Fryd
-Keywords: Text mining; Audio Magazine; Physical media; Playback equipment
+# The Player Problem: The share of space portioned to different audio playback devices in Audio Magazine between 1973-1999
 
-Final project for Digital Archives and Methods due 26/05/2026.
+This project attempts to shine some light on how the hi-fi magazine Audio portioned space for audio play-back devices for different formats between the years 1973-1999 as new music formats were introduced, and some went in and out of fashion, and how this compares to the revenue of physical music by format in the same period.
+
+## Summary
+
+I text mined all issues of Audio in the year 1973-1999 searching specifically for mentions (and synonyms) of 8-track players, record players, cassette players, and CD players.
+Results: My results ended up being rough due to messy OCR scans and lack of dependency parsing from my side, though my framework and what I have learnt should allow further research in this area.
+8-track players were only mentioned a handful of times due to messy PDFs. Record players were the most mentioned playback device until 1985 when they were surpassed by CD players. While record and cassette players continued declining in mentions until 1999, CD players rose until 1986 when a special CD issue of Audio was released, leading to a sharp decline in mentions the year after. Mentions fell drastically from 1990-1999 without leading to more mentions of record or cassette players. The reason for this remains outside the scope of this project, but it may have been due to a shift towards the home-theater market. 
+
+## Author
+
+Author: Marcus Fryd
+Contact: 202508263@post.au.dk
+
+## License
+
+This project is licensed under the CC0 1.0 Universal License - see the LICENSE file for details
 
 *NOTICE ABOUT AUDIO MAGAZINES*
 Due to the sheer amount of files, I have had to upload them to Science Data. They can be accessed via the link: 
